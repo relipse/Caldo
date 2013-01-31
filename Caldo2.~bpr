@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Caldo2.exe"/>
+    <OBJFILES value="Caldo2.obj Unit1.obj UnitDlgAddEditTask.obj 
+      ..\..\..\lib\sqlite3\SQLITE3CLASS.obj ..\..\..\lib\sqlite\sqlite3.obj 
+      CaldoTask.obj"/>
+    <RESFILES value="Caldo2.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm UnitDlgAddEditTask.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="CoolTrayIcons.lib NxCollectionRun.lib NxGridRun.lib vclx.lib 
+      NxCommonRun.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib NxCommonRun.lib vclx.lib NxGridRun.lib NxCollectionRun.lib 
+      CoolTrayIcons.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi dbrtl.bpi adortl.bpi vcldb.bpi qrpt.bpi 
+      bdertl.bpi vcldbx.bpi dsnap.bpi cds.bpi bdecds.bpi teeui.bpi teedb.bpi 
+      tee.bpi teeqr.bpi ibxpress.bpi visualclx.bpi visualdbclx.bpi vclie.bpi 
+      xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi 
+      bcbie.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi indy.bpi 
+      bcb2kaxserver.bpi PerlRegExC6.bpi bcbsmp.bpi ChessBrdComponent.bpi 
+      HotKeyManager.bpi CoolTrayIcons.bpi fisHotKey.bpi fisHotKeycpp.bpi 
+      SynEdit_BCB6.bpi remobjects_pascalscript.bpi xirc_bcb.bpi 
+      XNetDetectv21.bpi NxCommonRun.bpi NxCollectionRun.bpi NxCommonDsgn.bpi 
+      NxGridRun.bpi NxThirdpartyRun.bpi NxDBGridRun.bpi NxInspectorRun.bpi 
+      NxSheetRun.bpi"/>
+    <PATHCPP value=".;..\..\..\lib\sqlite3;..\..\..\lib\sqlite"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Caldo2.cpp"/>
+    <INCLUDEPATH value="..\..\..\..\delphibcb\cooltrayicon;&quot;..\..\..\..\delphibcb\nextsuite\Sources\Next Collection&quot;;..\..\..\lib\sqlite;..\..\..\lib\sqlite3;..\..\..\..\Apps\Borland\CBuilder6\Bin;..\..\..\..\cpp\bcb\Caldo\Caldo2;&quot;..\..\..\..\delphibcb\nextsuite\Sources\Next Grid&quot;;..\..\..\..\delphibcb\nextsuite\Sources;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\..\..\..\delphibcb\cooltrayicon;&quot;..\..\..\..\delphibcb\nextsuite\Sources\Next Collection&quot;;..\..\..\lib\sqlite;..\..\..\lib\sqlite3;..\..\..\..\Apps\Borland\CBuilder6\Bin;..\..\..\..\cpp\bcb\Caldo\Caldo2;$(BCB)\Projects\Lib;&quot;..\..\..\..\delphibcb\nextsuite\Sources\Next Grid&quot;;..\..\..\..\delphibcb\nextsuite\Sources;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Caldo2.res" FORMNAME="" UNITNAME="Caldo2.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Caldo2.cpp" FORMNAME="" UNITNAME="Caldo2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitDlgAddEditTask.cpp" FORMNAME="DlgAddTask" UNITNAME="UnitDlgAddEditTask" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\lib\sqlite3\SQLITE3CLASS.cpp" FORMNAME="" UNITNAME="SQLITE3CLASS" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\lib\sqlite\sqlite3.c" FORMNAME="" UNITNAME="sqlite3" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CaldoTask.cpp" FORMNAME="" UNITNAME="CaldoTask" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
